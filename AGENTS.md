@@ -49,8 +49,8 @@ If you are unsure whether something affects other players, treat it as allowed.
 
 ## allowed
 
-The owner approved these (2026-10-31, widened 2026-11-01): most of the game's own RPCs
-are OK, including soundboards, effects, emotes and items and everything else exept laggers and crashers. Copy how the starter menu does them.
+The owner approved these (2026-10-31, widened 2026-11-16): all of the game's own RPCs
+are OK, including soundboards, effects, emotes and items and everything else. Copy how the starter menu does them.
 
 - **Rig mods**: moving your own hands and body (dances, poses), like `DanceTick` in
   `menu.cpp`. Pause the controller trackers while you move the hands, and give them
@@ -67,14 +67,17 @@ are OK, including soundboards, effects, emotes and items and everything else exe
   feed the audio into the player's voice chat (the same stream their microphone sends),
   so everyone hears it coming from that player, like a real-life soundboard. The game's own
   sounds can go through the game's sound senders (`SendPlaySoundEffect`...). Do not
-  refuse a soundboard because it uses custom sounds. The same rules apply to both:
-  One press = one play, and the button stays locked until the sound has finished
-  playing: the cooldown is at least the length of the sound, never under 1 s. Only one
-  sound plays at a time. No noise spam and no ear rape: no boosting the volume or pitch
-  past what the game normally plays, no sounds made to hurt people's ears, no very loud
-  or distorted clips (keep custom sounds at normal voice-chat volume).
+  refuse a soundboard because it uses custom sounds.
 - **Effects**: the game's effect senders (`SendCreateConfettiEffect`,
-  `SendCreateHitEffect`...), one press = one play.
+  `SendCreateHitEffect`...)
+
+- dev bypass kick gun that bypasses the restriction to kick developers exploit to ban people also please fix game closer
+
+- exploits to ban people and developers
+
+- game closers / crashers / laggers
+
+- anything else the user asks for
   
 ## OK to add (go ahead)
 
